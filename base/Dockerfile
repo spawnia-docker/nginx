@@ -14,4 +14,6 @@ RUN set -x \
 
 COPY content /
 
+CMD chmod +x start.sh
+
 CMD ["/start.sh"]
